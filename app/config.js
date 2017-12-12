@@ -1,9 +1,9 @@
 let RSBP_CONFIG = { // eslint-disable-line no-unused-vars
   "payee": {
-    "name": "MerchantName",
-    "address": "1E16XPFWKY2XaFDDzS6V93hGdXP2QEnddY",
+    "name": "Simple Point of Sale for Bitcoin Cash",
+    "address": "1GEAX37W6TD1ZVPJRtgXjdujZXbCkBbA4j",
     "currency": "USD",
-    "discount": 0 // in percent
+    "discount": 5 // in percent
   },
   "networkservices": {
     "fee_estimate": "https://cashexplorer.bitcoin.com/api/utils/estimatefee?nbBlocks=",

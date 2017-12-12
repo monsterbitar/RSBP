@@ -9,8 +9,10 @@ Parameters are configured in the config.js and include:
 - `address` - The Bitcoin address to be paid
 - `discount` - The discount percentage to be applied to the conversation rate
 
-You can see a running example implementation here:
-https://consensusreality.io/demo/RSBP/pay.html
+For a live demo, visit:
+https://payment.monsterbitar.se/
+
+*(Donations are welcome, simply use the live demo with real value to send donations)*
 
 ## Installation
 
