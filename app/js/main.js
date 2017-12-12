@@ -18,7 +18,7 @@
 
     document.title = PAYEE_NAME;
 
-    $("#logo-link").prop("href", "https://insight.bitpay.com/address/" + ADDRESS);
+    $("#logo-link").prop("href", RSBP_CONFIG.blockexplorer.address_lookup + ADDRESS);
 
     // Setup currency button
     $("#currency-button").text(CURRENCY);

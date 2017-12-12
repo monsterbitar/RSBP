@@ -17,5 +17,14 @@ let RSBP_CONFIG = { // eslint-disable-line no-unused-vars
     "address": "1E16XPFWKY2XaFDDzS6V93hGdXP2QEnddY",
     "currency": "IDR",
     "discount": 0 // in percent
+  },
+  "networkservices": {
+    "fee_estimate": "https://cashexplorer.bitcoin.com/api/utils/estimatefee?nbBlocks=",
+    "fee_target_block": 6,
+    "address_transactions": "https://cashexplorer.bitcoin.com/api/txs/?address=",
+  },
+  "blockexplorer": {
+    "address_lookup": "https://cashexplorer.bitcoin.com/address/",
+    "transaction_lookup": "https://cashexplorer.bitcoin.com/tx/"
   }
 };

@@ -74,7 +74,7 @@
     console.info("Retrieving address balance...");
 
     RSBP.connector.ajax(
-      "https://insight.bitpay.com/api/utils/estimatefee?nbBlocks=6"
+      RSBP_CONFIG.networkservices.fee_estimate + "6"
     )
     .done(function (json) {
       recommendedFeePerByte = json["2"] / 1000;
@@ -85,7 +85,7 @@
     });
 
     RSBP.connector.ajax(
-      "https://insight.bitpay.com/api/txs/?address=" + ADDRESS
+      RSBP_CONFIG.networkservices.address_transactions + ADDRESS
     )
     .done(function (json) {
       let invoice = RSBP.invoice.get();
@@ -100,7 +100,7 @@
         return;
       }
 
-      txLink = "https://insight.bitpay.com/tx/" + lastTx.txid;
+      txLink = RSBP_CONFIG.blockexplorer.transaction_lookup + lastTx.txid;
 
       if (lastTx.time < invoice.time) {
         console.debug("Found past transaction, ignoring it");
