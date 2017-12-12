@@ -1,13 +1,8 @@
-# RSBP
+# SimplePOS4BCH
 
-[![Build Status](https://travis-ci.org/consensusRealityIO/RSBP.png?branch=master)](https://travis-ci.org/consensusRealityIO/RSBP)
+*Simple Point of Sale for Bitcoin Cash* is a single webpage/webapp that facilitates bitcoin payments, converting a fiat currency amount into a bitcoin amount, creating a payment QR code, and acknowledging payment when broadcasted to the Bitcoin Cash network
 
-*Real Simple Bitcoin Payments* is a single webpage that facilitates bitcoin payments, converting a fiat currency amount into a real-time bitcoin amount, creating the QR code, and acknowledging payment on the blockchain.
-It doesn't contain any server-side code and is very easy to install for your own use.
-
-Parameters can be hard-coded or passed in the URL (optional).
-
-Parameters include:
+Parameters are configured in the config.js and include:
 
 - `currency` - The three-character currency code, i.e. BTC, USD, IDR, ZAR
 - `amount` - The amount in fiat currency to be converted to BTC
@@ -17,22 +12,10 @@ Parameters include:
 You can see a running example implementation here:
 https://consensusreality.io/demo/RSBP/pay.html
 
-2 minute demo:
-https://www.youtube.com/watch?v=YMXKmTM_PKE
-
 ## Installation
 
-### Development ###
-
 ```sh
-npm install
-```
-
-This will install the linters used by `RSBP` and run `bower install`. You can then check the code against the style rules by running `npm run-script lint`.
-
-### Deployment ###
-
-```sh
+npm install -g bower
 bower install
 ```
 
