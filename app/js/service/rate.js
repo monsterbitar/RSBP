@@ -11,6 +11,7 @@
   const CURRENCY = RSBP_CONFIG.payee.currency;
   const USE_CORS_PROXY = RSBP_CONFIG.rate.useCorsProxy;
   const EXPIRATION = RSBP_CONFIG.rate.expiration;
+  const RATE_DECIMALS = 0;
   const IS_BCH = CURRENCY === "BCH";
   const URL = RSBP_CONFIG.networkservices.exchange_rate_url + CURRENCY + "";
   const RATE_EVENT = new Event("rate");
@@ -33,7 +34,7 @@
     console.info("Sending exchange rate request to " + URL);
     let jQXhr = RSBP.connector.ajax(URL, USE_CORS_PROXY);
     jQXhr.done(function (data) {
-      data = data["last"];
+      data = data["last"].toFixed(RATE_DECIMALS);
       console.info("Exchange rate received: 1 BCH = " + data + " " + CURRENCY);
       rate = data;
       rateReceivedTime = Date.now();

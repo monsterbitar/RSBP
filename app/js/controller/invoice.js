@@ -70,7 +70,7 @@
     if (invoice.currency === "BCH") {
       $("#payment-modal-rate-tr").remove();
     } else {
-      let value = "1 BCH = " + invoice.exchangeRate.toLocaleString() + " " + CURRENCY;
+      let value = invoice.exchangeRate.toLocaleString() + CURRENCY + " / BCH";
       $("#payment-modal-rate-value").text(value);
     }
   };
