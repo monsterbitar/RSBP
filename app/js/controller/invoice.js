@@ -40,7 +40,7 @@
   };
 
   let updateTitle = function () {
-    let text = "Pay with Bitcoin Cash (BCH)";
+    let text = "Pay with Bitcoin Cash [BCH]";
     $("#payment-modal-title").text(text);
   };
 
