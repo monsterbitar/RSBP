@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Simple Point of Sale for Bitcoin Cash</title>
+
+    <link href="img/favicon.png" rel="icon" type="image/png"/>
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" type="image/png"/>
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon-precomposed" type="image/png"/>
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Modal -->
+    <div id="payment-modal" class="modal fade" tabindex="-1" data-keyboard="false" data-backdrop="static">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button id="payment-modal-close-button" class="close" type="button" data-dismiss="modal">
+              &times;
+            </button>
+            <h4 id="payment-modal-title" class="modal-title"></h4>
+          </div>
+          <div class="modal-body">
+            <div class="table-responsive">
+              <table class="table table-condensed">
+                <tbody>
+                  <tr>
+                    <td class="text-left text-bold">Amount:</td>
+                    <td id="payment-modal-amount-value" class="text-right"></td>
+                  </tr>
+                  <tr>
+                    <td id="payment-modal-discount-text" class="text-left text-bold"></td>
+                    <td id="payment-modal-discount-value" class="text-right"></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left text-bold">Total:</td>
+                    <td id="payment-modal-total-value-currency" class="text-right"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="payment-modal-qrcode"></div>
+            <table class='table table-condensed'>
+              <tbody>
+                <tr id='payment-modal-address-row'>
+                  <a id="payment-modal-address" href="#"></a>
+                </tr>
+                <tr id="payment-modal-rate-tr">
+                  <td class="text-left text-bold">Exchange rate:</td>
+                  <td id="payment-modal-rate-value" class="text-right"></td>
+                </tr>
+                <tr id="payment-modal-request">
+                  <td class="text-left text-bold">Payment:</td>
+                  <td id="payment-modal-total-value-bch" class="text-right"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <div id="payment-status-div" class="alert">
+              <div>
+                <span id="payment-status-icon" class="glyphicon"></span>
+                <span id="payment-status-text"></span>
+              </div>
+              <div class="mt-1 collapse">
+                <a id="payment-status-link" href="#" target="_blank">
+                  <span class="glyphicon glyphicon-bitcoin"></span>
+                  See transaction details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- App -->
+    <form id="order-form" action="javascript:void(0)">
+      <center>
+        <a id="logo-link" target="_blank" href="#">
+          <img id="logo" src="img/logo.png" alt="Bitcoin Cash Payment"/>
+        </a>
+        <h1>Payment Request</h1>
+      </center>
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button id="currency-button" class="btn btn-default" type="button" disabled></button>
+        </span>
+        <input id="currency-amount-input-field" class="form-control" type="number" min="0.01" step="0.01" placeholder="amount" required autofocus/>
+        <span class="input-group-btn">
+          <input id="pay-button" class="btn btn-primary" type="submit" data-toggle="modal" data-target="#payment-modal" value="Pay"/>
+        </span>
+      </div>
+      <div id="currency-amount-input-error" class="mt-1 text-danger"></div>
+
+      <div id="order-amount" align="middle"></div>
+      <div id="app-status-component">
+        <div id="app-status-div" class="alert">
+          <span id="app-status-icon" class="glyphicon"></span>
+          <span id="app-status-content"></span>
+        </div>
+      </div>
+    </form>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/service/connector.js"></script>
+    <script type="text/javascript" src="js/service/rate.js"></script>
+    <script type="text/javascript" src="js/controller/app-status.js"></script>
+    <script type="text/javascript" src="js/controller/invoice.js"></script>
+    <script type="text/javascript" src="js/controller/payment.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
