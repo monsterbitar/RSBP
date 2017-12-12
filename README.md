@@ -15,6 +15,7 @@ https://consensusreality.io/demo/RSBP/pay.html
 ## Installation
 
 ```sh
+git clone https://github.com/monsterbitar/SPOS4BCH
 npm install -g bower
 bower install
 ```
