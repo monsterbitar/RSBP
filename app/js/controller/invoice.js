@@ -11,8 +11,8 @@
   const ADDRESS = RSBP_CONFIG.payee.address;
   const PAYEE_NAME = RSBP_CONFIG.payee.name;
   const CURRENCY = RSBP_CONFIG.payee.currency;
-  const BTC_DECIMALS = 8;
-  const CURRENCY_DECIMALS = (CURRENCY === "BTC") ? BTC_DECIMALS : 2;
+  const BCH_DECIMALS = 8;
+  const CURRENCY_DECIMALS = (CURRENCY === "BCH") ? BCH_DECIMALS : 2;
   const DISCOUNT = RSBP_CONFIG.payee.discount;
 
   let invoice = null;
@@ -29,13 +29,13 @@
     return (getAmount() * (1 - DISCOUNT)).toFixed(CURRENCY_DECIMALS);
   };
 
-  let getDiscountedAmountBtc = function () {
-    return (getDiscountedAmount() / RSBP.rate.get()).toFixed(BTC_DECIMALS);
+  let getDiscountedAmountBch = function () {
+    return (getDiscountedAmount() / RSBP.rate.get()).toFixed(BCH_DECIMALS);
   };
 
   let getBitcoinUri = function (invoiceId) {
     return "bitcoin:" + ADDRESS + "?" +
-      "amount=" + getDiscountedAmountBtc() +
+      "amount=" + getDiscountedAmountBch() +
       "&message=invoice" + invoiceId +
       "&label=" + PAYEE_NAME;
   };
@@ -60,17 +60,17 @@
   let updateTotal = function () {
     let valueCcy = invoice.discountedAmount.toLocaleString() + " " + invoice.currency;
     $("#payment-modal-total-value-currency").text(valueCcy);
-    if (invoice.currency !== "BTC") {
-      let valueBtc = invoice.discountedAmountBtc.toLocaleString() + " BTC";
-      $("#payment-modal-total-value-btc").text(valueBtc);
+    if (invoice.currency !== "BCH") {
+      let valueBch = invoice.discountedAmountBch.toLocaleString() + " BCH";
+      $("#payment-modal-total-value-bch").text(valueBch);
     }
   };
 
   let updateRate = function () {
-    if (invoice.currency === "BTC") {
+    if (invoice.currency === "BCH") {
       $("#payment-modal-rate-tr").remove();
     } else {
-      let value = "1 BTC = " + invoice.exchangeRate.toLocaleString() + " " + CURRENCY;
+      let value = "1 BCH = " + invoice.exchangeRate.toLocaleString() + " " + CURRENCY;
       $("#payment-modal-rate-value").text(value);
     }
   };
@@ -97,7 +97,7 @@
       discount: DISCOUNT,
       discountAmount: getDiscountAmount(),
       discountedAmount: getDiscountedAmount(),
-      discountedAmountBtc: getDiscountedAmountBtc(),
+      discountedAmountBch: getDiscountedAmountBch(),
       exchangeRate: RSBP.rate.get(),
       bitcoinUri: getBitcoinUri(invoiceId),
       time: now

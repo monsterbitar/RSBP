@@ -112,7 +112,7 @@
 
       outputs.forEach(function (output) {
         if (output.scriptPubKey.addresses[0] == ADDRESS &&
-            output.value == invoice.discountedAmountBtc) {
+            output.value == invoice.discountedAmountBch) {
           validAmount = true;
         }
       });

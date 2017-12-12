@@ -11,8 +11,8 @@
   const CURRENCY = RSBP_CONFIG.payee.currency;
   const USE_CORS_PROXY = RSBP_CONFIG.rate.useCorsProxy;
   const EXPIRATION = RSBP_CONFIG.rate.expiration;
-  const IS_BTC = CURRENCY === "BTC";
-  const URL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC" + CURRENCY +"";
+  const IS_BCH = CURRENCY === "BCH";
+  const URL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BCH" + CURRENCY +"";
   const RATE_EVENT = new Event("rate");
 
   let rate = 1;
@@ -21,7 +21,7 @@
   let enabled = false;
 
   let isValid = function () {
-    return IS_BTC ||
+    return IS_BCH ||
       (rateReceivedTime !== null && Math.abs(Date.now() - rateReceivedTime) <= EXPIRATION);
   };
 
@@ -34,7 +34,7 @@
     let jQXhr = RSBP.connector.ajax(URL, USE_CORS_PROXY);
     jQXhr.done(function (data) {
       data = data["last"];
-      console.info("Exchange rate received: 1 BTC = " + data + " " + CURRENCY);
+      console.info("Exchange rate received: 1 BCH = " + data + " " + CURRENCY);
       rate = data;
       rateReceivedTime = Date.now();
       window.dispatchEvent(RATE_EVENT);
@@ -87,7 +87,7 @@
 
   let start = function () {
     console.info("Starting exchange rate service...");
-    if (!IS_BTC) {
+    if (!IS_BCH) {
       if (RSBP.connector.isOnline()) {
         enable();
       }
@@ -99,7 +99,7 @@
         }
       });
     } else {
-      console.info("Exchange rate is valid and fixed at 1 BTC = 1 BTC");
+      console.info("Exchange rate is valid and fixed at 1 BCH = 1 BCH");
     }
     console.info("Exchange rate service started");
   };
