@@ -27,6 +27,33 @@ div {
   margin: auto;
 }
 
+.modal-header {
+	border-bottom-color: rgba(0, 0, 0, 0.43);
+	background-color: rgb(204, 256, 192);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.modal-footer {
+	border-top: none;
+	background-color: rgb(256, 256, 256);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 0;
+}
+
+.table-responsive {
+	border: 0px solid transparent;
+}
+
+tr {
+	border-top: 3px solid white;
+}
+
+tr:nth-child(3) {
+	border-top: 1px solid rgb(160, 160, 160);
+}
+
 #logo {
   height: 200px;
   width: 250px;

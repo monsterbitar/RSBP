@@ -39,20 +39,27 @@
                   </tr>
                   <tr>
                     <td class="text-left text-bold">Total:</td>
-                    <td>
-                      <div id="payment-modal-total-value-currency" class="text-right"></div>
-                      <div id="payment-modal-total-value-bch" class="text-right"></div>
-                    </td>
-                  </tr>
-                  <tr id="payment-modal-rate-tr">
-                    <td class="text-left text-bold">Exchange rate:</td>
-                    <td id="payment-modal-rate-value" class="text-right"></td>
+                    <td id="payment-modal-total-value-currency" class="text-right"></td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <div id="payment-modal-qrcode"></div>
-            <a id="payment-modal-address" href="#"></a>
+            <table class='table table-condensed'>
+              <tbody>
+                <tr id='payment-modal-address-row'>
+                  <a id="payment-modal-address" href="#"></a>
+                </tr>
+                <tr id="payment-modal-rate-tr">
+                  <td class="text-left text-bold">Exchange rate:</td>
+                  <td id="payment-modal-rate-value" class="text-right"></td>
+                </tr>
+                <tr id="payment-modal-request">
+                  <td class="text-left text-bold">Payment:</td>
+                  <td id="payment-modal-total-value-bch" class="text-right"></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="modal-footer">
             <div id="payment-status-div" class="alert">
