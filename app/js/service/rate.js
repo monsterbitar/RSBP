@@ -12,7 +12,7 @@
   const USE_CORS_PROXY = RSBP_CONFIG.rate.useCorsProxy;
   const EXPIRATION = RSBP_CONFIG.rate.expiration;
   const IS_BCH = CURRENCY === "BCH";
-  const URL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BCH" + CURRENCY +"";
+  const URL = RSBP_CONFIG.networkservices.exchange_rate_url + CURRENCY + "";
   const RATE_EVENT = new Event("rate");
 
   let rate = 1;

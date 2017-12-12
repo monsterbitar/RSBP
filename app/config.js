@@ -9,6 +9,7 @@ let RSBP_CONFIG = { // eslint-disable-line no-unused-vars
     "fee_estimate": "https://cashexplorer.bitcoin.com/api/utils/estimatefee?nbBlocks=",
     "fee_target_block": 6,
     "address_transactions": "https://cashexplorer.bitcoin.com/api/txs/?address=",
+    "exchange_rate_url": "https://apiv2.bitcoinaverage.com/indices/global/ticker/BCH"
   },
   "blockexplorer": {
     "address_lookup": "https://cashexplorer.bitcoin.com/address/",
