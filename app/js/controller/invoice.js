@@ -34,7 +34,7 @@
   };
 
   let getBitcoinUri = function () {
-    return "bitcoin:" + ADDRESS + "?" +
+    return "bitcoincash:" + ADDRESS + "?" +
       "amount=" + getDiscountedAmountBch() +
       "&message=" + PAYEE_NAME;
   };
