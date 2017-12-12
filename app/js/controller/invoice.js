@@ -33,15 +33,14 @@
     return (getDiscountedAmount() / RSBP.rate.get()).toFixed(BCH_DECIMALS);
   };
 
-  let getBitcoinUri = function (invoiceId) {
+  let getBitcoinUri = function () {
     return "bitcoin:" + ADDRESS + "?" +
       "amount=" + getDiscountedAmountBch() +
-      "&message=invoice" + invoiceId +
-      "&label=" + PAYEE_NAME;
+      "&message=" + PAYEE_NAME;
   };
 
   let updateTitle = function () {
-    let text = "Invoice " + invoice.id;
+    let text = "Pay with Bitcoin Cash (BCH)";
     $("#payment-modal-title").text(text);
   };
 
@@ -99,7 +98,7 @@
       discountedAmount: getDiscountedAmount(),
       discountedAmountBch: getDiscountedAmountBch(),
       exchangeRate: RSBP.rate.get(),
-      bitcoinUri: getBitcoinUri(invoiceId),
+      bitcoinUri: getBitcoinUri(),
       time: now
     };
   };
