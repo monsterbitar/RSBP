@@ -1,11 +1,6 @@
-var CACHE_NAME = 'simplepos4bch-cache-v2';
+var CACHE_NAME = 'simplepos4bch-cache-v1';
 var urlsToCache = [
-  '/',
-  '/index.html',
-  '/img/logo.png',
-  '/img/favicon.png',
-  '/img/apple-touch-icon.png',
-  '/img/google-touch-icon.png'
+  '.',
 ];
 
 self.addEventListener('install', function(event) {
@@ -16,5 +11,18 @@ self.addEventListener('install', function(event) {
         console.log('Opened cache');
         return cache.addAll(urlsToCache);
       })
+  );
+});
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.open('simplepos4bch-cache-v1').then(function(cache) {
+      return cache.match(event.request).then(function (response) {
+        return response || fetch(event.request).then(function(response) {
+          cache.put(event.request, response.clone());
+          return response;
+        });
+      });
+    })
   );
 });

@@ -1,7 +1,7 @@
 {
   "name": "Simple Point of Sale for Bitcoin Cash",
   "short_name": "SimplePOS4BCH",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
   "description": "A simple and userfriendly Point of Sale app without custodial risk, for Bitcoin Cash.",
