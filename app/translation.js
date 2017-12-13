@@ -44,8 +44,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "sv": "Anslutning bruten. Återansluter..."
   },
   "payment_status_waiting": {
-    "en": "Waiting for payment",
-    "sv": "Väntar på betalning"
+    "en": "Waiting for payment...",
+    "sv": "Väntar på betalning..."
   },
   "payment_status_complete": {
     "en": "Payment Success!",
@@ -59,25 +59,25 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "WARNING! Low Fee Detected - Please wait for 1 confirmation.",
     "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan."
   },
-  "...": {
-    "en": "...",
-    "sv": "..."
+  "app_status_rate_fetch": {
+    "en": "Fetching exchange rate...",
+    "sv": "Hämtar växlingskurs..."
   },
-  "...": {
-    "en": "...",
-    "sv": "..."
+  "app_status_rate_expired": {
+    "en": "Updating exchange rate...",
+    "sv": "Uppdaterar växlingskurs..."
   },
-  "...": {
-    "en": "...",
-    "sv": "..."
+  "app_status_connecting": {
+    "en": "Connecting...",
+    "sv": "Ansluter..."
   },
-  "...": {
-    "en": "...",
-    "sv": "..."
+  "app_status_reconnecting": {
+    "en": "Disconnected. Reconnecting...",
+    "sv": "Anslutning bruten. Återansluter..."
   },
-  "...": {
-    "en": "...",
-    "sv": "..."
+  "app_validation_amount": {
+    "en": "Enter valid amount.",
+    "sv": "Ange korrekt belopp."
   },
   "...": {
     "en": "...",
