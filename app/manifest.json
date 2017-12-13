@@ -18,8 +18,5 @@
     "src": "img/splash-screen.png",
     "sizes": "512x512",
     "type": "image/png"
-  }],
-  "related_applications": [{
-    "platform": "web"
   }]
 } 
