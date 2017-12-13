@@ -28,13 +28,13 @@
     $("#currency-amount-input-field").val(AMOUNT);
 
     // Set up langague strings.
-    $("#payment-modal-amount-text").val(SPOS_LANGUAGE.words.payment_modal_amount[RSBP_CONFIG.interface.language]);
-    $("#payment-modal-discount-text").val(SPOS_LANGUAGE.words.payment_modal_discount[RSBP_CONFIG.interface.language]);
-    $("#payment-modal-total-currency-text").val(SPOS_LANGUAGE.words.payment_modal_total_currency[RSBP_CONFIG.interface.language]);
-    $("#payment-modal-rate-text").val(SPOS_LANGUAGE.words.payment_modal_rate[RSBP_CONFIG.interface.language]);
-    $("#meta-title-text").val(SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
-    $("#payment-status-tx-details-text").val(SPOS_LANGUAGE.phrases.payment_status_tx_details)[RSBP_CONFIG.interface.language];
-    $("#order-title-text").val(SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
+    $("#payment-modal-amount-text").text(SPOS_LANGUAGE.words.payment_modal_amount[RSBP_CONFIG.interface.language]);
+    $("#payment-modal-discount-text").text(SPOS_LANGUAGE.words.payment_modal_discount[RSBP_CONFIG.interface.language]);
+    $("#payment-modal-total-currency-text").text(SPOS_LANGUAGE.words.payment_modal_total_currency[RSBP_CONFIG.interface.language]);
+    $("#payment-modal-rate-text").text(SPOS_LANGUAGE.words.payment_modal_rate[RSBP_CONFIG.interface.language]);
+    $("#meta-title-text").text(SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
+    $("#payment-status-tx-details-text").text(SPOS_LANGUAGE.phrases.payment_status_tx_details)[RSBP_CONFIG.interface.language];
+    $("#order-title-text").text(SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
 
 	// Set up language on the payment button
     $("#pay-button").attr("value", SPOS_LANGUAGE.words.pay_button[RSBP_CONFIG.interface.language]);
