@@ -76,6 +76,28 @@ tr:nth-child(3) {
   font-weight: bold;
 }
 
+#app-footer {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 400px;
+	margin-left: -200px;
+	margin-bottom: 3px;
+}
+
+#app-github {
+	float: left;
+}
+
+#app-license {
+	float: right;
+}
+
+#app-github,
+#app-license {
+	text-decoration: none;
+}
+
 .glyphicon-refresh-animate {
   -animation: spin .9s infinite linear;
   -webkit-animation: spin2 .9s infinite linear;
