@@ -1,6 +1,11 @@
-var CACHE_NAME = 'simplepos4bch-cache-v1';
+var CACHE_NAME = 'simplepos4bch-cache-v2';
 var urlsToCache = [
-  '.'
+  '/',
+  '/index.html',
+  '/img/logo.png',
+  '/img/favicon.png',
+  '/img/apple-touch-icon.png',
+  '/img/google-touch-icon.png'
 ];
 
 self.addEventListener('install', function(event) {
