@@ -34,7 +34,7 @@
     $("#payment-modal-rate-text").text(SPOS_LANGUAGE.payment_modal_rate[RSBP_CONFIG.interface.language]);
     $("#meta-title-text").text(SPOS_LANGUAGE.meta_title[RSBP_CONFIG.interface.language]);
     $("#payment-status-tx-details-text").text(SPOS_LANGUAGE.payment_status_tx_details)[RSBP_CONFIG.interface.language];
-    $("#order-title-text").text(SPOS_LANGUAGE.meta_title[RSBP_CONFIG.interface.language]);
+    $("#order-title-text").text(SPOS_LANGUAGE.order_title[RSBP_CONFIG.interface.language]);
     $("#payment-modal-total-payment-text").text(SPOS_LANGUAGE.payment_modal_total_payment[RSBP_CONFIG.interface.language]);
     $("#payment-modal-title-text").text(SPOS_LANGUAGE.payment_modal_title[RSBP_CONFIG.interface.language]);
 

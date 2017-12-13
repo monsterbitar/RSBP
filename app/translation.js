@@ -78,9 +78,5 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "app_validation_amount": {
     "en": "Enter valid amount.",
     "sv": "Ange korrekt belopp."
-  },
-  "...": {
-    "en": "...",
-    "sv": "..."
   }
 };
