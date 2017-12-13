@@ -19,9 +19,9 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
       "en": "Exchange rate",
 	 "sv": "Växlingskurs"
     },
-    "temp": {
-      "en": "Amount",
-	 "sv": "Belopp"
+    "pay_button": {
+      "en": "Pay",
+	 "sv": "Betala"
     },
     "temp2": {
       "en": "Amount",
@@ -45,11 +45,11 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
       "en": "Payment Request",
 	 "sv": "Betalförfrågan"
     },
-    "meta_title": {
+    "meta_title2": {
       "en": "Simple Point of Sale for Bitcoin Cash",
 	 "sv": "Enkel Kassa för Bitcoin Cash"
     },
-    "meta_title": {
+    "meta_title2": {
       "en": "Simple Point of Sale for Bitcoin Cash",
 	 "sv": "Enkel Kassa för Bitcoin Cash"
     },

@@ -37,7 +37,7 @@
     $("#order-title-text").val(SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
 
 	// Set up language on the payment button
-    $("#pay-button").attr("value", SPOS_LANGUAGE.phrases.order_title[RSBP_CONFIG.interface.language]);
+    $("#pay-button").attr("value", SPOS_LANGUAGE.words.pay_button[RSBP_CONFIG.interface.language]);
     
 
     // Log payment modal state
