@@ -8,10 +8,10 @@
 
 Parameters are configured in the config.js and include:
 
-- `currency` - The three-character currency code, i.e. BTC, USD, IDR, ZAR
-- `amount` - The amount in fiat currency to be converted to BTC
-- `address` - The Bitcoin address to be paid
-- `discount` - The discount percentage to be applied to the conversation rate
+- `language` - The two-letter language code, for example: 'en', 'sv'
+- `currency` - The three-character currency code, for example: 'USD', 'EUR', 'CNY'
+- `address` - The Bitcoin address that recieves payments.
+- `discount` - The discount percentage (%), for example: '5'
 
 For a live demo, visit:
 https://payment.monsterbitar.se/
