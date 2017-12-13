@@ -35,6 +35,50 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Payment Request",
     "sv": "Betalförfrågan"
   },
+  "payment_modal_title": {
+    "en": "Pay with Bitcoin Cash [BCH]",
+    "sv": "Betala med Bitcoin Cash [BCH]"
+  },
+  "payment_status_disconnected": {
+    "en": "Disconnected. Reconnecting...",
+    "sv": "Anslutning bruten. Återansluter..."
+  },
+  "payment_status_waiting": {
+    "en": "Waiting for payment",
+    "sv": "Väntar på betalning"
+  },
+  "payment_status_complete": {
+    "en": "Payment Success!",
+    "sv": "Betalning slutförd!"
+  },
+  "payment_status_rbf": {
+    "en": "WARNING! Replace By Fee - Please wait for 1 confirmation.",
+    "sv": "VARNING! Osäker betalning, invänta bekräftelse på blockkjedjan."
+  },
+  "payment_status_low_fee": {
+    "en": "WARNING! Low Fee Detected - Please wait for 1 confirmation.",
+    "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan."
+  },
+  "...": {
+    "en": "...",
+    "sv": "..."
+  },
+  "...": {
+    "en": "...",
+    "sv": "..."
+  },
+  "...": {
+    "en": "...",
+    "sv": "..."
+  },
+  "...": {
+    "en": "...",
+    "sv": "..."
+  },
+  "...": {
+    "en": "...",
+    "sv": "..."
+  },
   "...": {
     "en": "...",
     "sv": "..."

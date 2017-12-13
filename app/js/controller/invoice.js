@@ -39,11 +39,6 @@
       "&message=" + PAYEE_NAME;
   };
 
-  let updateTitle = function () {
-    let text = "Pay with Bitcoin Cash [BCH]";
-    $("#payment-modal-title").text(text);
-  };
-
   let updateAmount = function () {
     let value = invoice.amount.toLocaleString() + " " + invoice.currency;
     $("#payment-modal-amount-value").text(value);
@@ -107,7 +102,6 @@
     let invoiceId = Math.floor(Math.random() * (900000 - 100000 + 1)) + 100000;
     invoice = createInvoice(invoiceId);
     console.info("Created invoice " + invoiceId + ": " + JSON.stringify(invoice));
-    updateTitle();
     updateAmount();
     updateDiscount();
     updateTotal();

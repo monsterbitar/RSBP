@@ -50,22 +50,22 @@
     if (!RSBP.connector.isOnline()) {
       $("#payment-status-div").addClass("alert-danger");
       $("#payment-status-icon").addClass("glyphicon-exclamation-sign");
-      $("#payment-status-text").text("Disconnected. Reconnecting...");
+      $("#payment-status-text").text(SPOS_LANGUAGE.payment_status_disconnected[RSBP_CONFIG.interface.language]);
     } else if (balanceStatus === BALANCE_STATUS.WAITING) {
       $("#payment-status-div").addClass("alert-info");
       $("#payment-status-icon").addClass("glyphicon-refresh");
       $("#payment-status-icon").addClass("glyphicon-refresh-animate");
-      $("#payment-status-text").text("Waiting for payment");
+      $("#payment-status-text").text(SPOS_LANGUAGE.payment_status_waiting[RSBP_CONFIG.interface.language]);
     } else if (balanceStatus === BALANCE_STATUS.PAID) {
       $("#payment-status-div").addClass("alert-success");
-      $("#payment-status-text").text("Payment Success!");
+      $("#payment-status-text").text(SPOS_LANGUAGE.payment_status_complete[RSBP_CONFIG.interface.language]);
     } else if (balanceStatus === BALANCE_STATUS.PAID_RBF) {
       $("#payment-status-div").addClass("alert-warning");
-      $("#payment-status-text").text("WARNING! Replace By Fee - Please wait for 1 confirmation.");
+      $("#payment-status-text").text(SPOS_LANGUAGE.payment_status_rbf[RSBP_CONFIG.interface.language]);
       $("#payment-status-link").prop("href", txLink).parent().show();
     } else if (balanceStatus === BALANCE_STATUS.PAID_LOW_FEE) {
       $("#payment-status-div").addClass("alert-warning");
-      $("#payment-status-text").text("WARNING! Low Fee Detected - Please wait for 1 confirmation.");
+      $("#payment-status-text").text(SPOS_LANGUAGE.payment_status_low_fee[RSBP_CONFIG.interface.language]);
       $("#payment-status-link").prop("href", txLink).parent().show();
     }
   };

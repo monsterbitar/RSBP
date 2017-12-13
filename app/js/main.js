@@ -36,6 +36,7 @@
     $("#payment-status-tx-details-text").text(SPOS_LANGUAGE.payment_status_tx_details)[RSBP_CONFIG.interface.language];
     $("#order-title-text").text(SPOS_LANGUAGE.meta_title[RSBP_CONFIG.interface.language]);
     $("#payment-modal-total-payment-text").text(SPOS_LANGUAGE.payment_modal_total_payment[RSBP_CONFIG.interface.language]);
+    $("#payment-modal-title-text").text(SPOS_LANGUAGE.payment_modal_title[RSBP_CONFIG.interface.language]);
 
 	// Set up language on the payment button
     $("#pay-button").attr("value", SPOS_LANGUAGE.pay_button[RSBP_CONFIG.interface.language]);
