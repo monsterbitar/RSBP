@@ -1,6 +1,6 @@
 var CACHE_NAME = 'simplepos4bch-cache-v1';
 var urlsToCache = [
-  '/'
+  '.'
 ];
 
 self.addEventListener('install', function(event) {
