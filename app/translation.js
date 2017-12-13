@@ -1,6 +1,3 @@
-// payment-modal-total-value-bch > payment-modal-total-payment-value
-// payment-modal-total-value-currency > payment-modal-total-currency-text
-
 let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "words": {
     "payment_modal_amount": {
@@ -12,7 +9,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
 	 "sv": "Rabatt"
     },
     "payment_modal_total_currency": {
-      "en": "Amount",
+      "en": "Total",
 	 "sv": "Belopp"
     },
     "payment_modal_rate": {

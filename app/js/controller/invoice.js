@@ -50,7 +50,7 @@
   };
 
   let updateDiscount = function () {
-    let text = "Discount (" + (invoice.discount * 100).toLocaleString() + "%):";
+    let text = SPOS_LANGUAGE.words.payment_modal_discount[RSBP_CONFIG.interface.language] + " (" + (invoice.discount * 100).toLocaleString() + "%):";
     let value = invoice.discountAmount.toLocaleString() + " " + invoice.currency;
     $("#payment-modal-discount-text").text(text);
     $("#payment-modal-discount-value").text("-" + value);
@@ -58,10 +58,10 @@
 
   let updateTotal = function () {
     let valueCcy = invoice.discountedAmount.toLocaleString() + " " + invoice.currency;
-    $("#payment-modal-total-value-currency").text(valueCcy);
+    $("#payment-modal-total-currency-value").text(valueCcy);
     if (invoice.currency !== "BCH") {
       let valueBch = invoice.discountedAmountBch.toLocaleString() + " BCH";
-      $("#payment-modal-total-value-bch").text(valueBch);
+      $("#payment-modal-total-payment-value").text(valueBch);
     }
   };
 
