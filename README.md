@@ -1,8 +1,10 @@
 # SimplePOS4BCH
 
+*Simple Point of Sale for Bitcoin Cash* is a single webpage/webapp that facilitates bitcoin payments, converting a fiat currency amount into a bitcoin amount, creating a payment QR code, and acknowledging payment when broadcasted to the Bitcoin Cash network
+
  ![Screenshot](https://user-images.githubusercontent.com/8721695/33949010-9c5b9b52-e028-11e7-8d99-7aac6fdca0fc.png)
 
-*Simple Point of Sale for Bitcoin Cash* is a single webpage/webapp that facilitates bitcoin payments, converting a fiat currency amount into a bitcoin amount, creating a payment QR code, and acknowledging payment when broadcasted to the Bitcoin Cash network
+## Configuration
 
 Parameters are configured in the config.js and include:
 
