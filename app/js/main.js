@@ -53,7 +53,7 @@
     // Add a service worked
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('webapp.js').then(function(registration) {
+        navigator.serviceWorker.register('js/webapp.js').then(function(registration) {
 
           // Registration was successful
           console.log('ServiceWorker registration successful with scope: ', registration.scope);
