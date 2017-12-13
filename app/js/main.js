@@ -34,10 +34,10 @@
     $("#payment-modal-rate-text").val(SPOS_LANGUAGE.words.payment_modal_rate[RSBP_CONFIG.interface.language]);
     $("#meta-title-text").val(SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
     $("#payment-status-tx-details-text").val(SPOS_LANGUAGE.phrases.payment_status_tx_details)[RSBP_CONFIG.interface.language];
-    $("#order-title-text").val(SPOS_LANGUAGE.phrases.order_title[RSBP_CONFIG.interface.language]);
+    $("#order-title-text").val(SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
 
 	// Set up language on the payment button
-    $("#pay-button").attr("value", SPOS_LANGUAGE.phrases.meta_title[RSBP_CONFIG.interface.language]);
+    $("#pay-button").attr("value", SPOS_LANGUAGE.phrases.order_title[RSBP_CONFIG.interface.language]);
     
 
     // Log payment modal state
