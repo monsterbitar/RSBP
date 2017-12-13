@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Simple Point of Sale for Bitcoin Cash</title>
+    <title id="meta-title-text"></title>
 
     <link href="img/favicon.png" rel="icon" type="image/png"/>
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon" type="image/png"/>
@@ -30,7 +30,7 @@
               <table class="table table-condensed">
                 <tbody>
                   <tr>
-                    <td class="text-left text-bold">Amount:</td>
+                    <td id="payment-modal-amount-text" class="text-left text-bold"></td>
                     <td id="payment-modal-amount-value" class="text-right"></td>
                   </tr>
                   <tr>
@@ -38,8 +38,8 @@
                     <td id="payment-modal-discount-value" class="text-right"></td>
                   </tr>
                   <tr>
-                    <td class="text-left text-bold">Total:</td>
-                    <td id="payment-modal-total-value-currency" class="text-right"></td>
+                    <td id="payment-modal-total-currency-text" class="text-left text-bold"></td>
+                    <td id="payment-modal-total-currency-value" class="text-right"></td>
                   </tr>
                 </tbody>
               </table>
@@ -51,12 +51,12 @@
                   <a id="payment-modal-address" href="#"></a>
                 </tr>
                 <tr id="payment-modal-rate-tr">
-                  <td class="text-left text-bold">Exchange rate:</td>
+                  <td id="payment-modal-rate-text" class="text-left text-bold"></td>
                   <td id="payment-modal-rate-value" class="text-right"></td>
                 </tr>
                 <tr id="payment-modal-request">
-                  <td class="text-left text-bold">Payment:</td>
-                  <td id="payment-modal-total-value-bch" class="text-right"></td>
+                  <td id="payment-modal-total-payment-text" class="text-left text-bold"></td>
+                  <td id="payment-modal-total-payment-value" class="text-right"></td>
                 </tr>
               </tbody>
             </table>
@@ -70,7 +70,7 @@
               <div class="mt-1 collapse">
                 <a id="payment-status-link" href="#" target="_blank">
                   <span class="glyphicon glyphicon-bitcoin"></span>
-                  See transaction details
+                  <span id="payment-status-tx-details-text"></span>
                 </a>
               </div>
             </div>
@@ -85,7 +85,7 @@
         <a id="logo-link" target="_blank" href="#">
           <img id="logo" src="img/logo.png" alt="Bitcoin Cash Payment"/>
         </a>
-        <h1>Payment Request</h1>
+        <h1 id="order-title-text"></h1>
       </center>
       <div class="input-group">
         <span class="input-group-btn">
@@ -93,7 +93,7 @@
         </span>
         <input id="currency-amount-input-field" class="form-control" type="number" min="0.01" step="0.01" placeholder="amount" required autofocus/>
         <span class="input-group-btn">
-          <input id="pay-button" class="btn btn-primary" type="submit" data-toggle="modal" data-target="#payment-modal" value="Pay"/>
+          <input id="pay-button" class="btn btn-primary" type="submit" data-toggle="modal" data-target="#payment-modal" value="..."/>
         </span>
       </div>
       <div id="currency-amount-input-error" class="mt-1 text-danger"></div>
