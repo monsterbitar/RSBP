@@ -8,7 +8,7 @@
 
   "use strict";
 
-  const CURRENCY = RSBP_CONFIG.payee.currency;
+  const CURRENCY = RSBP_CONFIG.interface.currency;
   const USE_CORS_PROXY = RSBP_CONFIG.rate.useCorsProxy;
   const EXPIRATION = RSBP_CONFIG.rate.expiration;
   const RATE_DECIMALS = 0;

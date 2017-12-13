@@ -10,7 +10,7 @@
 
   const ADDRESS = RSBP_CONFIG.payee.address;
   const PAYEE_NAME = RSBP_CONFIG.payee.name;
-  const CURRENCY = RSBP_CONFIG.payee.currency;
+  const CURRENCY = RSBP_CONFIG.interface.currency;
   const BCH_DECIMALS = 8;
   const CURRENCY_DECIMALS = (CURRENCY === "BCH") ? BCH_DECIMALS : 2;
   const DISCOUNT = RSBP_CONFIG.payee.discount;

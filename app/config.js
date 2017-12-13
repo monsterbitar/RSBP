@@ -1,11 +1,11 @@
 let RSBP_CONFIG = { // eslint-disable-line no-unused-vars
   "interface": {
-    "language": "en"
+    "language": "en",
+    "currency": "USD"
   },
   "payee": {
     "name": "Simple Point of Sale for Bitcoin Cash",
     "address": "1GEAX37W6TD1ZVPJRtgXjdujZXbCkBbA4j",
-    "currency": "USD",
     "discount": 5 // in percent
   },
   "networkservices": {

@@ -14,8 +14,8 @@
 
     const ADDRESS = RSBP_CONFIG.payee.address;
     const PAYEE_NAME = RSBP_CONFIG.payee.name;
-    const CURRENCY = RSBP_CONFIG.payee.currency;
     const AMOUNT = RSBP_CONFIG.payee.amount;
+    const CURRENCY = RSBP_CONFIG.interface.currency;
 
     document.title = PAYEE_NAME;
 
