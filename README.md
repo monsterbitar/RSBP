@@ -18,6 +18,7 @@ https://payment.monsterbitar.se/
 
 ```sh
 git clone https://github.com/monsterbitar/SPOS4BCH
+cd SPOS4BCH
 npm install -g bower
 bower install
 ```
