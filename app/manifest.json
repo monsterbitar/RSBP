@@ -3,8 +3,8 @@
   "short_name": "SimplePOS4BCH",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
   "description": "A simple and userfriendly Point of Sale app without custodial risk, for Bitcoin Cash.",
   "icons": [{
     "src": "img/apple-touch-icon.png",
