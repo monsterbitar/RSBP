@@ -4,19 +4,19 @@
 
  ![Screenshot](https://user-images.githubusercontent.com/8721695/33949010-9c5b9b52-e028-11e7-8d99-7aac6fdca0fc.png)
 
+For a live demo, visit:
+https://payment.monsterbitar.se/
+
+*(Donations are welcome, simply use the live demo with real value to send donations)*
+
 ## Configuration
 
-Parameters are configured in the config.js and include:
+Parameters are configured in app/config.js and include:
 
 - `language` - The two-letter language code, for example: 'en', 'sv'
 - `currency` - The three-character currency code, for example: 'USD', 'EUR', 'CNY'
 - `address` - The Bitcoin address that recieves payments.
 - `discount` - The discount percentage (%), for example: '5'
-
-For a live demo, visit:
-https://payment.monsterbitar.se/
-
-*(Donations are welcome, simply use the live demo with real value to send donations)*
 
 ## Requirements
 
