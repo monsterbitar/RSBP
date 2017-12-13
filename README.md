@@ -18,12 +18,28 @@ https://payment.monsterbitar.se/
 
 *(Donations are welcome, simply use the live demo with real value to send donations)*
 
+## Requirements
+
+The Point of Sale uses modern libraries (bootstrap, jquery) and features that might not work on older browser, and uses bower to manage the 3rd party libraries.
+
+You can install bower with NPM from NodeJs:
+
+```sh
+npm install -g bower
+```
+
 ## Installation
+
+Start by cloning the github master branch:
 
 ```sh
 git clone https://github.com/monsterbitar/SPOS4BCH
+```
+
+Then enter the directory and install the necessary libraries:
+
+```sh
 cd SPOS4BCH
-npm install -g bower
 bower install
 ```
 
