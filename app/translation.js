@@ -250,7 +250,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fr": "",
     "jp": "",
     "nl": "",
-    "no": "",é
+    "no": "",
     "pl": "",
     "pt": "",
     "sv": "Hämtar växlingskurs..."
