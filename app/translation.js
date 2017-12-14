@@ -3,7 +3,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Amount",
 
     "cz": "",
-    "de": "",
+    "de": "Betrag",
     "dk": "",
     "es": "",
     "fi": "",
@@ -19,7 +19,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Discount",
 
     "cz": "",
-    "de": "",
+    "de": "Rabatt",
     "dk": "",
     "es": "",
     "fi": "",
@@ -35,7 +35,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Total",
 
     "cz": "",
-    "de": "",
+    "de": "Gesamtsumme",
     "dk": "",
     "es": "",
     "fi": "",
@@ -51,7 +51,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Exchange rate",
 
     "cz": "",
-    "de": "",
+    "de": "Wechselkurs",
     "dk": "",
     "es": "",
     "fi": "",
@@ -67,7 +67,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Pay",
 
     "cz": "",
-    "de": "",
+    "de": "Zahlen",
     "dk": "",
     "es": "",
     "fi": "",
@@ -83,7 +83,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Pay",
 
     "cz": "",
-    "de": "",
+    "de": "Zahlen",
     "dk": "",
     "es": "",
     "fi": "",
@@ -99,7 +99,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Simple Point of Sale for Bitcoin Cash",
 
     "cz": "",
-    "de": "",
+    "de": "Einfache Verkaufsstelle für Bitcoin Cash",
     "dk": "",
     "es": "",
     "fi": "",
@@ -115,7 +115,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "See transaction details",
 
     "cz": "",
-    "de": "",
+    "de": "Siehe Transaktionsdetails",
     "dk": "",
     "es": "",
     "fi": "",
@@ -131,7 +131,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Payment Request",
 
     "cz": "",
-    "de": "",
+    "de": "Zahlungsaufforderung",
     "dk": "",
     "es": "",
     "fi": "",
@@ -147,7 +147,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Pay with Bitcoin Cash [BCH]",
 
     "cz": "",
-    "de": "",
+    "de": "Zahlen mit Bitcoin Cash [BCH]",
     "dk": "",
     "es": "",
     "fi": "",
@@ -163,7 +163,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Disconnected. Reconnecting...",
 
     "cz": "",
-    "de": "",
+    "de": "Getrennt. Wiederverbinden...",
     "dk": "",
     "es": "",
     "fi": "",
@@ -179,7 +179,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Waiting for payment...",
 
     "cz": "",
-    "de": "",
+    "de": "Warten auf Zahlung...",
     "dk": "",
     "es": "",
     "fi": "",
@@ -195,7 +195,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Payment Success!",
 
     "cz": "",
-    "de": "",
+    "de": "Zahlung erfolgreich!",
     "dk": "",
     "es": "",
     "fi": "",
@@ -211,7 +211,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "WARNING! Replace By Fee - Please wait for 1 confirmation.",
 
     "cz": "",
-    "de": "",
+    "de": "WARNUNG! Replace by Fee - Bitte warten Sie auf 1 Bestätigung",
     "dk": "",
     "es": "",
     "fi": "",
@@ -227,7 +227,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "WARNING! Low Fee Detected - Please wait for 1 confirmation.",
 
     "cz": "",
-    "de": "",
+    "de": "WARNUNG! Niedrige Gebuehr erkannt - Bitte warten Sie auf 1 Bestätigung",
     "dk": "",
     "es": "",
     "fi": "",
@@ -243,7 +243,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Fetching exchange rate...",
 
     "cz": "",
-    "de": "",
+    "de": "Wechselkurs wird abgerufen...",
     "dk": "",
     "es": "",
     "fi": "",
@@ -259,7 +259,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Updating exchange rate...",
 
     "cz": "",
-    "de": "",
+    "de": "Wechselkurs wird aktualisiert...",
     "dk": "",
     "es": "",
     "fi": "",
@@ -275,7 +275,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Connecting...",
 
     "cz": "",
-    "de": "",
+    "de": "Verbinden...",
     "dk": "",
     "es": "",
     "fi": "",
@@ -291,7 +291,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Disconnected. Reconnecting...",
 
     "cz": "",
-    "de": "",
+    "de": "Getrennt. Wiederverbinden...",
     "dk": "",
     "es": "",
     "fi": "",
@@ -307,7 +307,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "Enter valid amount.",
 
     "cz": "",
-    "de": "",
+    "de": "Gültigen Betrag eingeben.",
     "dk": "",
     "es": "",
     "fi": "",
