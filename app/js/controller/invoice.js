@@ -45,7 +45,7 @@
   };
 
   let updateDiscount = function () {
-    let text = SPOS_LANGUAGE.payment_modal_discount[RSBP_CONFIG.interface.language] + " (" + (invoice.discount * 100).toLocaleString() + "%):";
+    let text = SPOS_LANGUAGE.payment_modal_discount[RSBP_CONFIG.interface.language] + " (" + (invoice.discount * 100).toLocaleString() + "%)";
     let value = invoice.discountAmount.toLocaleString() + " " + invoice.currency;
     $("#payment-modal-discount-text").text(text);
     $("#payment-modal-discount-value").text("-" + value);

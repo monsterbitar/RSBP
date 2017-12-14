@@ -40,6 +40,7 @@
 
 	// Set up language on the payment button
     $("#pay-button").attr("value", SPOS_LANGUAGE.pay_button[RSBP_CONFIG.interface.language]);
+    $("#currency-amount-input-field").attr("placeholder", SPOS_LANGUAGE.payment_modal_amount[RSBP_CONFIG.interface.language]);
     
 
     // Log payment modal state
