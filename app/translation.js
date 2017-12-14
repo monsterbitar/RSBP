@@ -227,7 +227,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "en": "WARNING! Low Fee Detected - Please wait for 1 confirmation.",
 
     "cz": "",
-    "de": "WARNUNG! Niedrige Gebuehr erkannt - Bitte warten Sie auf 1 Bestätigung",
+    "de": "WARNUNG! Niedrige Gebühr erkannt - Bitte warten Sie auf 1 Bestätigung",
     "dk": "",
     "es": "",
     "fi": "",
