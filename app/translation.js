@@ -69,7 +69,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "cz": "",
     "de": "Zahlen",
     "dk": "",
-    "es": "Pagar",
+    "es": "A Pagar",
     "fi": "",
     "fr": "",
     "jp": "",
