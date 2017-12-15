@@ -2,7 +2,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_modal_amount": {
     "en": "Amount",
 
-    "ca": "",
+    "ca": "Quantitat",
     "cz": "",
     "de": "Betrag",
     "dk": "",
@@ -22,7 +22,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_modal_discount": {
     "en": "Discount",
 
-    "ca": "",
+    "ca": "Descompte",
     "cz": "",
     "de": "Rabatt",
     "dk": "",
@@ -42,7 +42,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_modal_total_currency": {
     "en": "Total",
 
-    "ca": "",
+    "ca": "Total",
     "cz": "",
     "de": "Gesamtsumme",
     "dk": "",
@@ -62,7 +62,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_modal_rate": {
     "en": "Exchange rate",
 
-    "ca": "",
+    "ca": "Taxa de canvi",
     "cz": "",
     "de": "Wechselkurs",
     "dk": "",
@@ -82,7 +82,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_modal_total_payment": {
     "en": "Pay",
 
-    "ca": "",
+    "ca": "Pagar",
     "cz": "",
     "de": "Zahlen",
     "dk": "",
@@ -102,7 +102,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "pay_button": {
     "en": "Pay",
 
-    "ca": "",
+    "ca": "Pagar",
     "cz": "",
     "de": "Zahlen",
     "dk": "",
@@ -122,7 +122,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "meta_title": {
     "en": "Simple Point of Sale for Bitcoin Cash",
 
-    "ca": "",
+    "ca": "Senzill Punt de Venda per Bitcoin Cash",
     "cz": "",
     "de": "Einfache Verkaufsstelle für Bitcoin Cash",
     "dk": "",
@@ -142,7 +142,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_status_tx_details": {
     "en": "See transaction details",
 
-    "ca": "",
+    "ca": "Veure detalls de la traducció",
     "cz": "",
     "de": "Siehe Transaktionsdetails",
     "dk": "",
@@ -162,7 +162,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "order_title": {
     "en": "Payment Request",
 
-    "ca": "",
+    "ca": "Solicitud de pagament",
     "cz": "",
     "de": "Zahlungsaufforderung",
     "dk": "",
@@ -182,7 +182,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_modal_title": {
     "en": "Pay with Bitcoin Cash [BCH]",
 
-    "ca": "",
+    "ca": "Pagar amb Bitcoin Cash [BCH]",
     "cz": "",
     "de": "Zahlen mit Bitcoin Cash [BCH]",
     "dk": "",
@@ -202,7 +202,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_status_disconnected": {
     "en": "Disconnected. Reconnecting...",
 
-    "ca": "",
+    "ca": "Desconectat. Restablint la conecció...",
     "cz": "",
     "de": "Getrennt. Wiederverbinden...",
     "dk": "",
@@ -222,7 +222,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_status_waiting": {
     "en": "Waiting for payment...",
 
-    "ca": "",
+    "ca": "Esperant pagament...",
     "cz": "",
     "de": "Warten auf Zahlung...",
     "dk": "",
@@ -242,7 +242,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_status_complete": {
     "en": "Payment Success!",
 
-    "ca": "",
+    "ca": "Pagament realitzat amb èxit!",
     "cz": "",
     "de": "Zahlung erfolgreich!",
     "dk": "",
@@ -262,7 +262,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_status_rbf": {
     "en": "WARNING! Replace By Fee - Please wait for 1 confirmation.",
 
-    "ca": "",
+    "ca": "ATENCIÓ! Pagament encara no segur - Si us plau, esperi 1 confirmació",
     "cz": "",
     "de": "WARNUNG! Replace by Fee - Bitte warten Sie auf 1 Bestätigung",
     "dk": "",
@@ -282,7 +282,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "payment_status_low_fee": {
     "en": "WARNING! Low Fee Detected - Please wait for 1 confirmation.",
 
-    "ca": "",
+    "ca": "ATENCIÓ! S'ha detectat una tarifa massa baixa - Esperi 1 confirmació",
     "cz": "",
     "de": "WARNUNG! Niedrige Gebühr erkannt - Bitte warten Sie auf 1 Bestätigung",
     "dk": "",
@@ -302,7 +302,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "app_status_rate_fetch": {
     "en": "Fetching exchange rate...",
 
-    "ca": "",
+    "ca": "Obtinguent tarifa de canvi...",
     "cz": "",
     "de": "Wechselkurs wird abgerufen...",
     "dk": "",
@@ -322,7 +322,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "app_status_rate_expired": {
     "en": "Updating exchange rate...",
 
-    "ca": "",
+    "ca": "Actualitzant la tarifa de canvi...",
     "cz": "",
     "de": "Wechselkurs wird aktualisiert...",
     "dk": "",
@@ -342,7 +342,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "app_status_connecting": {
     "en": "Connecting...",
 
-    "ca": "",
+    "ca": "Connectant...",
     "cz": "",
     "de": "Verbinden...",
     "dk": "",
@@ -362,7 +362,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "app_status_reconnecting": {
     "en": "Disconnected. Reconnecting...",
 
-    "ca": "",
+    "ca": "Desconectat. Tornant a Establir la Connexió...",
     "cz": "",
     "de": "Getrennt. Wiederverbinden...",
     "dk": "",
@@ -382,7 +382,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
   "app_validation_amount": {
     "en": "Enter valid amount.",
 
-    "ca": "",
+    "ca": "Introdueixi una quantitat vàlida",
     "cz": "",
     "de": "Gültigen betrag eingeben.",
     "dk": "",
