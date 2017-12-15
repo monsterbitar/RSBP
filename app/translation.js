@@ -11,6 +11,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Belopp"
@@ -27,6 +28,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Rabatt"
@@ -43,6 +45,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Summa"
@@ -59,6 +62,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Växlingskurs"
@@ -75,6 +79,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Betala"
@@ -91,6 +96,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Betala"
@@ -107,6 +113,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Enkel Kassa för Bitcoin Cash"
@@ -123,6 +130,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Visa transaktionsdetaljer"
@@ -139,6 +147,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Betalförfrågan"
@@ -155,6 +164,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Betala med Bitcoin Cash [BCH]"
@@ -171,6 +181,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Anslutning bruten. Återansluter..."
@@ -187,6 +198,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Väntar på betalning..."
@@ -203,6 +215,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Betalning slutförd!"
@@ -219,6 +232,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "VARNING! Osäker betalning, invänta bekräftelse på blockkjedjan."
@@ -235,6 +249,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan."
@@ -251,6 +266,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Hämtar växlingskurs..."
@@ -267,6 +283,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Uppdaterar växlingskurs..."
@@ -283,6 +300,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Ansluter..."
@@ -299,6 +317,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Anslutning bruten. Återansluter..."
@@ -315,6 +334,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "jp": "",
     "nl": "",
     "no": "",
+    "ms": "",
     "pl": "",
     "pt": "",
     "sv": "Ange korrekt belopp."
