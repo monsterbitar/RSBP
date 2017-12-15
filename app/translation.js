@@ -13,7 +13,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "ចំនួន",
     "nl": "Bedrag",
     "no": "",
-    "ms": "",
+    "ms": "Jumlah",
     "pl": "",
     "pt": "",
     "sv": "Belopp"
@@ -32,7 +32,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "បញ្ចុះតម្លៃ",
     "nl": "Korting",
     "no": "",
-    "ms": "",
+    "ms": "Diskaun",
     "pl": "",
     "pt": "",
     "sv": "Rabatt"
@@ -51,7 +51,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "សរុប",
     "nl": "Totaal",
     "no": "",
-    "ms": "",
+    "ms": "Jumlah Keseluruhan",
     "pl": "",
     "pt": "",
     "sv": "Summa"
@@ -70,7 +70,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "អត្រា​ប្តូ​រ​ប្រាក់",
     "nl": "Wisselkoers",
     "no": "",
-    "ms": "",
+    "ms": "Kadar Penukaran",
     "pl": "",
     "pt": "",
     "sv": "Växlingskurs"
@@ -89,7 +89,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "ទូទាត់",
     "nl": "Betalen",
     "no": "",
-    "ms": "",
+    "ms": "Bayar",
     "pl": "",
     "pt": "",
     "sv": "Betala"
@@ -108,7 +108,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "ទូទាត់",
     "nl": "Betalen",
     "no": "",
-    "ms": "",
+    "ms": "Butang Bayar",
     "pl": "",
     "pt": "",
     "sv": "Betala"
@@ -127,7 +127,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "ចំណុចសាមញ្ញនៃការលក់សម្រាប់ Bitcoin Cash",
     "nl": "Eenvoudig verkooppunt voor Bitcoin Cash",
     "no": "",
-    "ms": "",
+    "ms": "Satu Sistem Pembayaran Mudah untuk Bitcoin Cash",
     "pl": "",
     "pt": "",
     "sv": "Enkel Kassa för Bitcoin Cash"
@@ -146,7 +146,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "មើលព័ត៌មានប្រតិបត្តិការលម្អិត",
     "nl": "Zie Transactie details",
     "no": "",
-    "ms": "",
+    "ms": "Sila Lihat Maklumat Transaksi",
     "pl": "",
     "pt": "",
     "sv": "Visa transaktionsdetaljer"
@@ -165,7 +165,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "សំណើទូទាត់",
     "nl": "Betalings Verzoek",
     "no": "",
-    "ms": "",
+    "ms": "Permohonan Pembayaran",
     "pl": "",
     "pt": "",
     "sv": "Betalförfrågan"
@@ -178,13 +178,13 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "de": "Zahlen mit Bitcoin Cash [BCH]",
     "dk": "",
     "es": "Pagar con Bitcoin Cash [BCH]",
-    "fi": "Maksa Bitcoin Cashilla (BCH)",
+    "fi": "Maksa Bitcoin Cashilla [BCH]",
     "fr": "",
     "jp": "",
     "kh": "ទូទាត់ជាមួយ Bitcoin Cash [BCH]",
     "nl": "Betalen met Bitcoin Cash [BCH]",
     "no": "",
-    "ms": "",
+    "ms": "Bayar Dengan Bitcoin Cash [BCH]",
     "pl": "",
     "pt": "",
     "sv": "Betala med Bitcoin Cash [BCH]"
@@ -203,7 +203,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "បានផ្តាច់. កំពុងតភ្ជាប់ឡើងវិញ...",
     "nl": "Verbinding verbroken. Herverbinden...",
     "no": "",
-    "ms": "",
+    "ms": "Talian Terputus, Penyambungan Semula...",
     "pl": "",
     "pt": "",
     "sv": "Anslutning bruten. Återansluter..."
@@ -222,7 +222,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "រង់ចាំការទូទាត់...",
     "nl": "Wachten op Betaling...",
     "no": "",
-    "ms": "",
+    "ms": "Menanti Penerimaan Pembayaran...",
     "pl": "",
     "pt": "",
     "sv": "Väntar på betalning..."
@@ -241,7 +241,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "ការទូទាត់ជោគជ័យ!",
     "nl": "Betaling Succesvol!",
     "no": "",
-    "ms": "",
+    "ms": "Pembayaran Berjaya!",
     "pl": "",
     "pt": "",
     "sv": "Betalning slutförd!"
@@ -260,7 +260,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "ការព្រមាន! ជំនួសដោយកម្រៃសេវា -  សូមរង់ចាំការបញ្ជាក់មួយ.",
     "nl": "WAARSCHUWING! Replace By Fee - Gelieve te wachten op 1 bevestiging.",
     "no": "",
-    "ms": "",
+    "ms": "AMARAN! Diganti dengan Fi - Sila Tunggu 1 Pengesahan.",
     "pl": "",
     "pt": "",
     "sv": "VARNING! Osäker betalning, invänta bekräftelse på blockkjedjan."
@@ -279,7 +279,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "ការព្រមាន! តម្លៃរកឃើញទាប - សូមរង់ចាំការបញ្ជាក់មួយ.",
     "nl": "WAARSCHUWING! Lage Fee Gedetecteerd - Gelieve te wachten op 1 bevestiging.",
     "no": "",
-    "ms": "",
+    "ms": "AMARAN! Fi Rendah Dikesan -Sila Tunggu 1 Pengesahan.",
     "pl": "",
     "pt": "",
     "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan."
@@ -298,7 +298,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "កំពុង​ស្វែងរកអត្រាប្តូរប្រាក់...",
     "nl": "Wisselkoers word opgevraagd...",
     "no": "",
-    "ms": "",
+    "ms": "Kadar Penukaran Sedang Didapatkan...",
     "pl": "",
     "pt": "",
     "sv": "Hämtar växlingskurs..."
@@ -317,7 +317,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "កំពុងធ្វើបច្ចុប្បន្នភាពអត្រាប្តូរប្រាក់...",
     "nl": "Wisselkoers word bijgewerkt...",
     "no": "",
-    "ms": "",
+    "ms": "Kadar Penukaran Sedang di Kemaskini...",
     "pl": "",
     "pt": "",
     "sv": "Uppdaterar växlingskurs..."
@@ -336,7 +336,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "កំពុងតភ្ជាប់...",
     "nl": "Verbinden...",
     "no": "",
-    "ms": "",
+    "ms": "Sedang Disambung...",
     "pl": "",
     "pt": "",
     "sv": "Ansluter..."
@@ -355,7 +355,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "បានផ្តាច់. កំពុងតភ្ជាប់ឡើងវិញ...",
     "nl": "Verbinding verbroken. Herverbinden...",
     "no": "",
-    "ms": "",
+    "ms": "Talian Terputus. Penyambungan Semula...",
     "pl": "",
     "pt": "",
     "sv": "Anslutning bruten. Återansluter..."
@@ -374,7 +374,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "kh": "បញ្ចូលចំនួនទឹកប្រាក់ដែលត្រឹមត្រូវ.",
     "nl": "Geldig bedrag invoeren.",
     "no": "",
-    "ms": "",
+    "ms": "Sila Masukkan Jumlah Yang Tepat.",
     "pl": "",
     "pt": "",
     "sv": "Ange korrekt belopp."
