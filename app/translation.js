@@ -16,7 +16,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Jumlah",
     "pl": "",
     "pt": "",
-    "sv": "Belopp"
+    "sv": "Belopp",
+    "vn": "Số Tiền"
   },
   "payment_modal_discount": {
     "en": "Discount",
@@ -35,7 +36,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Diskaun",
     "pl": "",
     "pt": "",
-    "sv": "Rabatt"
+    "sv": "Rabatt",
+    "vn": "Chiết Khấu"
   },
   "payment_modal_total_currency": {
     "en": "Total",
@@ -54,7 +56,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Jumlah Keseluruhan",
     "pl": "",
     "pt": "",
-    "sv": "Summa"
+    "sv": "Summa",
+    "vn": "Tổng Tiền"
   },
   "payment_modal_rate": {
     "en": "Exchange rate",
@@ -73,7 +76,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Kadar Penukaran",
     "pl": "",
     "pt": "",
-    "sv": "Växlingskurs"
+    "sv": "Växlingskurs",
+    "vn": "Tỷ Giá"
   },
   "payment_modal_total_payment": {
     "en": "Pay",
@@ -92,7 +96,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Bayar",
     "pl": "",
     "pt": "",
-    "sv": "Betala"
+    "sv": "Betala",
+    "vn": "Thanh Toán"
   },
   "pay_button": {
     "en": "Pay",
@@ -111,7 +116,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Butang Bayar",
     "pl": "",
     "pt": "",
-    "sv": "Betala"
+    "sv": "Betala",
+    "vn": "Thanh Toán"
   },
   "meta_title": {
     "en": "Simple Point of Sale for Bitcoin Cash",
@@ -130,7 +136,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Satu Sistem Pembayaran Mudah untuk Bitcoin Cash",
     "pl": "",
     "pt": "",
-    "sv": "Enkel Kassa för Bitcoin Cash"
+    "sv": "Enkel Kassa för Bitcoin Cash",
+    "vn": "Cổng Thanh Toán dùng Bitcoin Cash"
   },
   "payment_status_tx_details": {
     "en": "See transaction details",
@@ -149,7 +156,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Sila Lihat Maklumat Transaksi",
     "pl": "",
     "pt": "",
-    "sv": "Visa transaktionsdetaljer"
+    "sv": "Visa transaktionsdetaljer",
+    "vn": "Chi tiết về giao dịch"
   },
   "order_title": {
     "en": "Payment Request",
@@ -168,7 +176,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Permohonan Pembayaran",
     "pl": "",
     "pt": "",
-    "sv": "Betalförfrågan"
+    "sv": "Betalförfrågan",
+    "vn": "Yêu Cầu Thanh Toán"
   },
   "payment_modal_title": {
     "en": "Pay with Bitcoin Cash [BCH]",
@@ -187,7 +196,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Bayar Dengan Bitcoin Cash [BCH]",
     "pl": "",
     "pt": "",
-    "sv": "Betala med Bitcoin Cash [BCH]"
+    "sv": "Betala med Bitcoin Cash [BCH]",
+    "vn": "Trả bằng Bitcoin Cash [BCH]"
   },
   "payment_status_disconnected": {
     "en": "Disconnected. Reconnecting...",
@@ -206,7 +216,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Talian Terputus, Penyambungan Semula...",
     "pl": "",
     "pt": "",
-    "sv": "Anslutning bruten. Återansluter..."
+    "sv": "Anslutning bruten. Återansluter...",
+    "vn": "Kết nối bị ngắt. Đang kết nối lại..."
   },
   "payment_status_waiting": {
     "en": "Waiting for payment...",
@@ -225,7 +236,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Menanti Penerimaan Pembayaran...",
     "pl": "",
     "pt": "",
-    "sv": "Väntar på betalning..."
+    "sv": "Väntar på betalning...",
+    "vn": "Đang đợi giao dịch..."
   },
   "payment_status_complete": {
     "en": "Payment Success!",
@@ -244,7 +256,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Pembayaran Berjaya!",
     "pl": "",
     "pt": "",
-    "sv": "Betalning slutförd!"
+    "sv": "Betalning slutförd!",
+    "vn": "Thanh toán thành công!"
   },
   "payment_status_rbf": {
     "en": "WARNING! Replace By Fee - Please wait for 1 confirmation.",
@@ -263,7 +276,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "AMARAN! Diganti dengan Fi - Sila Tunggu 1 Pengesahan.",
     "pl": "",
     "pt": "",
-    "sv": "VARNING! Osäker betalning, invänta bekräftelse på blockkjedjan."
+    "sv": "VARNING! Osäker betalning, invänta bekräftelse på blockkjedjan.",
+    "vn": "Lưu ý! Giao dịch có Replace-By-Fee - Xin đợi ít nhất 1 xác nhận"
   },
   "payment_status_low_fee": {
     "en": "WARNING! Low Fee Detected - Please wait for 1 confirmation.",
@@ -282,7 +296,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "AMARAN! Fi Rendah Dikesan -Sila Tunggu 1 Pengesahan.",
     "pl": "",
     "pt": "",
-    "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan."
+    "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan.",
+    "vn": "Lưu Ý! Phí giao dịch thấp - Xin đợi ít nhất 1 xác nhận"
   },
   "app_status_rate_fetch": {
     "en": "Fetching exchange rate...",
@@ -301,7 +316,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Kadar Penukaran Sedang Didapatkan...",
     "pl": "",
     "pt": "",
-    "sv": "Hämtar växlingskurs..."
+    "sv": "Hämtar växlingskurs...",
+    "vn": "Lấy thông tin về tỷ giá..."
   },
   "app_status_rate_expired": {
     "en": "Updating exchange rate...",
@@ -320,7 +336,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Kadar Penukaran Sedang di Kemaskini...",
     "pl": "",
     "pt": "",
-    "sv": "Uppdaterar växlingskurs..."
+    "sv": "Uppdaterar växlingskurs...",
+    "vn": "Đang cập nhật tỷ giá..."
   },
   "app_status_connecting": {
     "en": "Connecting...",
@@ -339,7 +356,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Sedang Disambung...",
     "pl": "",
     "pt": "",
-    "sv": "Ansluter..."
+    "sv": "Ansluter...",
+    "vn": "Đang kết nối..."
   },
   "app_status_reconnecting": {
     "en": "Disconnected. Reconnecting...",
@@ -358,7 +376,8 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Talian Terputus. Penyambungan Semula...",
     "pl": "",
     "pt": "",
-    "sv": "Anslutning bruten. Återansluter..."
+    "sv": "Anslutning bruten. Återansluter...",
+    "vn": "Kết nối bị ngắt. Đang kết nối lại..."
   },
   "app_validation_amount": {
     "en": "Enter valid amount.",
@@ -377,6 +396,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Sila Masukkan Jumlah Yang Tepat.",
     "pl": "",
     "pt": "",
-    "sv": "Ange korrekt belopp."
+    "sv": "Ange korrekt belopp.",
+    "vn": "Điền số tiền hợp lệ."
   }
 };
