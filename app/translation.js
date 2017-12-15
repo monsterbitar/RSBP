@@ -16,7 +16,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Jumlah",
     "pl": "",
     "pt": "",
-    "sv": "Belopp"，
+    "sv": "Belopp",
     "zh": "数目"
   },
   "payment_modal_discount": {
@@ -36,7 +36,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Diskaun",
     "pl": "",
     "pt": "",
-    "sv": "Rabatt"，
+    "sv": "Rabatt",
     "zh": "折扣"
   },
   "payment_modal_total_currency": {
@@ -76,7 +76,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Kadar Penukaran",
     "pl": "",
     "pt": "",
-    "sv": "Växlingskurs"，
+    "sv": "Växlingskurs",
     "zh": "汇率"
   },
   "payment_modal_total_payment": {
@@ -96,7 +96,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Bayar",
     "pl": "",
     "pt": "",
-    "sv": "Betala"，
+    "sv": "Betala",
     "zh": "支付"
   },
   "pay_button": {
@@ -116,7 +116,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Butang Bayar",
     "pl": "",
     "pt": "",
-    "sv": "Betala"，
+    "sv": "Betala",
     "zh": "支付"
   },
   "meta_title": {
@@ -156,7 +156,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Sila Lihat Maklumat Transaksi",
     "pl": "",
     "pt": "",
-    "sv": "Visa transaktionsdetaljer"，
+    "sv": "Visa transaktionsdetaljer",
     "zh": "请看交易内容"
   },
   "order_title": {
@@ -176,7 +176,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Permohonan Pembayaran",
     "pl": "",
     "pt": "",
-    "sv": "Betalförfrågan"，
+    "sv": "Betalförfrågan",
     "zh": "付款要求"
   },
   "payment_modal_title": {
@@ -216,7 +216,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Talian Terputus, Penyambungan Semula...",
     "pl": "",
     "pt": "",
-    "sv": "Anslutning bruten. Återansluter..."，
+    "sv": "Anslutning bruten. Återansluter...",
     "zh": "掉线状态。正在重新连接..."
   },
   "payment_status_waiting": {
@@ -256,7 +256,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Pembayaran Berjaya!",
     "pl": "",
     "pt": "",
-    "sv": "Betalning slutförd!"，
+    "sv": "Betalning slutförd!",
     "zh": "支付成功！"
   },
   "payment_status_rbf": {
@@ -396,7 +396,7 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "ms": "Sila Masukkan Jumlah Yang Tepat.",
     "pl": "",
     "pt": "",
-    "sv": "Ange korrekt belopp."，
+    "sv": "Ange korrekt belopp.",
     "zh": "请输入有效数目。"
   }
 };
