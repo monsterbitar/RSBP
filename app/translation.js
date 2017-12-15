@@ -9,12 +9,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Määrä",
     "fr": "",
     "jp": "",
+    "kh": "ចំនួន",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Belopp",
-    "kh": "ចំនួន"
+    "sv": "Belopp"
   },
   "payment_modal_discount": {
     "en": "Discount",
@@ -26,12 +26,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Alennus",
     "fr": "",
     "jp": "",
+    "kh": "បញ្ចុះតម្លៃ",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Rabatt",
-    "kh": "បញ្ចុះតម្លៃ"
+    "sv": "Rabatt"
   },
   "payment_modal_total_currency": {
     "en": "Total",
@@ -43,12 +43,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Kokonaissumma",
     "fr": "",
     "jp": "",
+    "kh": "សរុប",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Summa",
-    "kh": "សរុប"
+    "sv": "Summa"
   },
   "payment_modal_rate": {
     "en": "Exchange rate",
@@ -60,12 +60,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Vaihtokurssi",
     "fr": "",
     "jp": "",
+    "kh": "អត្រា​ប្តូ​រ​ប្រាក់",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Växlingskurs",
-    "kh": "អត្រា​ប្តូ​រ​ប្រាក់"
+    "sv": "Växlingskurs"
   },
   "payment_modal_total_payment": {
     "en": "Pay",
@@ -77,12 +77,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Maksettava",
     "fr": "",
     "jp": "",
+    "kh": "ទូទាត់",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Betala",
-    "kh": "ទូទាត់"
+    "sv": "Betala"
   },
   "pay_button": {
     "en": "Pay",
@@ -94,12 +94,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Maksa",
     "fr": "",
     "jp": "",
+    "kh": "ទូទាត់",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Betala",
-    "kh": "ទូទាត់"
+    "sv": "Betala"
   },
   "meta_title": {
     "en": "Simple Point of Sale for Bitcoin Cash",
@@ -111,12 +111,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Yksinkertainen myyntipiste Bitcoin Cashille",
     "fr": "",
     "jp": "",
+    "kh": "ចំណុចសាមញ្ញនៃការលក់សម្រាប់ Bitcoin សាច់ប្រាក់",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Enkel Kassa för Bitcoin Cash",
-    "kh": "ចំណុចសាមញ្ញនៃការលក់សម្រាប់ Bitcoin សាច់ប្រាក់"
+    "sv": "Enkel Kassa för Bitcoin Cash"
   },
   "payment_status_tx_details": {
     "en": "See transaction details",
@@ -128,12 +128,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Katso maksun tiedot",
     "fr": "",
     "jp": "",
+    "kh": "មើលព័ត៌មានប្រតិបត្តិការលម្អិត",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Visa transaktionsdetaljer",
-    "kh": "មើលព័ត៌មានប្រតិបត្តិការលម្អិត"
+    "sv": "Visa transaktionsdetaljer"
   },
   "order_title": {
     "en": "Payment Request",
@@ -145,12 +145,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Maksupyyntö",
     "fr": "",
     "jp": "",
+    "kh": "សំណើទូទាត់",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Betalförfrågan",
-    "kh": "សំណើទូទាត់"
+    "sv": "Betalförfrågan"
   },
   "payment_modal_title": {
     "en": "Pay with Bitcoin Cash [BCH]",
@@ -162,12 +162,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Maksa Bitcoin Cashilla (BCH)",
     "fr": "",
     "jp": "",
+    "kh": "ទូទាត់ជាមួយ Bitcoin សាច់ប្រាក់ [BCH]",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Betala med Bitcoin Cash [BCH]",
-    "kh": "ទូទាត់ជាមួយ Bitcoin សាច់ប្រាក់ [BCH]"
+    "sv": "Betala med Bitcoin Cash [BCH]"
   },
   "payment_status_disconnected": {
     "en": "Disconnected. Reconnecting...",
@@ -179,12 +179,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Yhteys poikki. Yhdistetään...",
     "fr": "",
     "jp": "",
+    "kh": "បានផ្តាច់. កំពុងតភ្ជាប់ឡើងវិញ...",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Anslutning bruten. Återansluter...",
-    "kh": "បានផ្តាច់. កំពុងតភ្ជាប់ឡើងវិញ..."
+    "sv": "Anslutning bruten. Återansluter..."
   },
   "payment_status_waiting": {
     "en": "Waiting for payment...",
@@ -196,12 +196,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Odotetaan maksua...",
     "fr": "",
     "jp": "",
+    "kh": "រង់ចាំការទូទាត់...",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Väntar på betalning...",
-    "kh": "រង់ចាំការទូទាត់..."
+    "sv": "Väntar på betalning..."
   },
   "payment_status_complete": {
     "en": "Payment Success!",
@@ -213,12 +213,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Maksu onnistui!",
     "fr": "",
     "jp": "",
+    "kh": "ការទូទាត់ជោគជ័យ!",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Betalning slutförd!",
-    "kh": "ការទូទាត់ជោគជ័យ!"
+    "sv": "Betalning slutförd!"
   },
   "payment_status_rbf": {
     "en": "WARNING! Replace By Fee - Please wait for 1 confirmation.",
@@ -230,12 +230,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "VAROITUS! Replace By Fee - Odota 1 vahvistus.",
     "fr": "",
     "jp": "",
+    "kh": "ការព្រមាន! ជំនួសដោយកម្រៃសេវា -  សូមរង់ចាំការបញ្ជាក់មួយ.",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "VARNING! Osäker betalning, invänta bekräftelse på blockkjedjan.",
-    "kh": "ការព្រមាន! ជំនួសដោយកម្រៃសេវា -  សូមរង់ចាំការបញ្ជាក់មួយ."
+    "sv": "VARNING! Osäker betalning, invänta bekräftelse på blockkjedjan."
   },
   "payment_status_low_fee": {
     "en": "WARNING! Low Fee Detected - Please wait for 1 confirmation.",
@@ -247,12 +247,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "VAROITUS! Alhainen fee - Odota 1 vahvistus.",
     "fr": "",
     "jp": "",
+    "kh": "ការព្រមាន! តម្លៃរកឃើញទាប - សូមរង់ចាំការបញ្ជាក់មួយ.",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan.",
-    "kh": "ការព្រមាន! តម្លៃរកឃើញទាប - សូមរង់ចាំការបញ្ជាក់មួយ."
+    "sv": "VARNING! För låg avgift, invänta bekräftelse på blockkjedjan."
   },
   "app_status_rate_fetch": {
     "en": "Fetching exchange rate...",
@@ -264,12 +264,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Haetaan vaihtokurssia...",
     "fr": "",
     "jp": "",
+    "kh": "កំពុង​ស្វែងរកអត្រាប្តូរប្រាក់...",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Hämtar växlingskurs...",
-    "kh": "កំពុង​ស្វែងរកអត្រាប្តូរប្រាក់..."
+    "sv": "Hämtar växlingskurs..."
   },
   "app_status_rate_expired": {
     "en": "Updating exchange rate...",
@@ -281,12 +281,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Päivitetään vaihtokurssia...",
     "fr": "",
     "jp": "",
+    "kh": "កំពុងធ្វើបច្ចុប្បន្នភាពអត្រាប្តូរប្រាក់...",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Uppdaterar växlingskurs...",
-    "kh": "កំពុងធ្វើបច្ចុប្បន្នភាពអត្រាប្តូរប្រាក់..."
+    "sv": "Uppdaterar växlingskurs..."
   },
   "app_status_connecting": {
     "en": "Connecting...",
@@ -298,12 +298,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Yhdistetään...",
     "fr": "",
     "jp": "",
+    "kh": "កំពុងតភ្ជាប់...",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Ansluter...",
-    "kh": "កំពុងតភ្ជាប់..."
+    "sv": "Ansluter..."
   },
   "app_status_reconnecting": {
     "en": "Disconnected. Reconnecting...",
@@ -315,12 +315,12 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Yhteys poikki. Yhdistetään...",
     "fr": "",
     "jp": "",
+    "kh": "បានផ្តាច់. កំពុងតភ្ជាប់ឡើងវិញ...",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Anslutning bruten. Återansluter...",
-    "kh": "បានផ្តាច់. កំពុងតភ្ជាប់ឡើងវិញ..."
+    "sv": "Anslutning bruten. Återansluter..."
   },
   "app_validation_amount": {
     "en": "Enter valid amount.",
@@ -332,11 +332,11 @@ let SPOS_LANGUAGE = { // eslint-disable-line no-unused-vars
     "fi": "Syötä oikea summa.",
     "fr": "",
     "jp": "",
+    "kh": "បញ្ចូលចំនួនទឹកប្រាក់ដែលត្រឹមត្រូវ.",
     "nl": "",
     "no": "",
     "pl": "",
     "pt": "",
-    "sv": "Ange korrekt belopp.",
-    "kh": "បញ្ចូលចំនួនទឹកប្រាក់ដែលត្រឹមត្រូវ."
+    "sv": "Ange korrekt belopp."
   }
 };
